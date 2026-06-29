@@ -35,40 +35,27 @@ This project started as a simple calculator practice project and gradually evolv
 
 ## Project Structure
 
-```
 signup.html      → User registration page
 
 log.html         → User login page
 
-calc.html        → Main calculator
+calc.html        → Main calculator dashboard
 
-history.html     → Displays saved calculations
+history.html     → Displays saved calculation history
 
 forget.html      → Password recovery page
 
 about.html       → Information about the project
 
-sign.js          → Handles registration
+sign.js          → Handles user registration
 
-main.js          → Handles login validation
+main.js          → Handles login authentication
 
-calc.js          → Calculator logic and history
+calc.js          → Calculator operations, history saving, and page protection
 
-his.js           → Displays calculation history
+his.js           → Displays stored calculation history and page protection
 
-forget.js        → Password recovery logic
-```
-## Future Improvements
-
-* Responsive Design
-* Backend Authentication
-* Database Integration
-* Secure Password Hashing
-* JWT Authentication
-* Multiple User Accounts
-* Logout Functionality
-
----
+forget.js        → Password recovery using registered phone number
 
 ## Note
 
