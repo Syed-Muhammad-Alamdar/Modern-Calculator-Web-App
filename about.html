@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Project</title>
+
+
+
+```
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+<style>
+
+    *{
+
+        margin:0;
+
+        padding:0;
+
+        box-sizing:border-box;
+
+        font-family:'Poppins',sans-serif;
+
+    }
+
+
+
+    body{
+
+        min-height:100vh;
+
+        display:flex;
+
+        justify-content:center;
+
+        align-items:center;
+
+        background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+
+        padding:20px;
+
+    }
+
+
+
+    .about-card{
+
+        max-width:850px;
+
+        width:100%;
+
+        padding:40px;
+
+        border-radius:25px;
+
+        background: rgba(255,255,255,0.08);
+
+        backdrop-filter: blur(15px);
+
+        color:white;
+
+        box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+
+    }
+
+
+
+    h1{
+
+        text-align:center;
+
+        margin-bottom:20px;
+
+    }
+
+
+
+    h2{
+
+        margin-top:25px;
+
+        margin-bottom:10px;
+
+        color:#00F5D4;
+
+    }
+
+
+
+    p{
+
+        line-height:1.8;
+
+    }
+
+
+
+    ul{
+
+        padding-left:20px;
+
+        line-height:1.8;
+
+    }
+
+
+
+    .btn{
+
+        display:inline-block;
+
+        margin-top:25px;
+
+        padding:12px 25px;
+
+        text-decoration:none;
+
+        color:white;
+
+        border-radius:12px;
+
+        background: linear-gradient(135deg,#00b4db,#0083b0);
+
+        transition:0.3s;
+
+    }
+
+
+
+    .btn:hover{
+
+        transform:translateY(-3px);
+
+    }
+
+</style>
+
+```
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="about-card">
+
+
+
+```
+
+<h1>About This Project</h1>
+
+
+
+<p>
+
+    This Calculator Web Application was developed as a frontend learning project using HTML, CSS, JavaScript, and LocalStorage.
+
+    What started as a simple calculator gradually evolved into a complete multi-page web application with authentication,
+
+    password recovery, personalized greetings, and calculation history tracking.
+
+</p>
+
+
+
+<h2>Features</h2>
+
+
+
+<ul>
+
+    <li>User Login System</li>
+
+    <li>User Registration System</li>
+
+    <li>Password Recovery Using Phone Number</li>
+
+    <li>Calculator Operations</li>
+
+    <li>Calculation History with Timestamps</li>
+
+    <li>Personalized User Greeting</li>
+
+    <li>LocalStorage Data Persistence</li>
+
+    <li>Modern Glassmorphism-Inspired UI</li>
+
+</ul>
+
+
+
+<h2>Technologies Used</h2>
+
+
+
+<ul>
+
+    <li>HTML5</li>
+
+    <li>CSS3</li>
+
+    <li>JavaScript (Vanilla JS)</li>
+
+    <li>Bootstrap</li>
+
+    <li>LocalStorage API</li>
+
+</ul>
+
+
+
+<h2>Purpose</h2>
+
+
+
+<p>
+
+    The goal of this project was to strengthen my understanding of JavaScript, DOM manipulation, LocalStorage,
+
+    multi-page application development, authentication concepts, and modern UI design techniques.
+
+</p>
+
+
+
+<a href="calc.html" class="btn">Back to Calculator</a>
+
+```
+
+
+
+</div>
+
+<script>
+    let user = localStorage.getItem("username");
+
+if (!user) {
+    alert("Please login first!");
+    window.location.href = "index.html";
+}
+</script>
+
+
+</body>
+
+</html>

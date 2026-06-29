@@ -1,0 +1,97 @@
+
+
+body{
+    background-image: url(sufyan-crKFSTKufs8-unsplash.jpg) ;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;  
+    background-size: cover;       
+    background-position: center; 
+    background-attachment: fixed; 
+     font-family: 'Poppins', sans-serif !important;
+}
+
+#Main{
+    height: 500px;
+    width: 450px;
+    background: transparent ;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 75px;
+    color: #FFFFFF;
+    box-shadow: 4px 4px 15px white;
+}
+
+.label{
+    padding-right: 190px;
+    color:#FFFFFF;
+}
+
+.username-2{
+    padding: 10px 90px 10px 5px;
+    text-align: left;
+  
+    border-radius: 10px;
+  
+}
+
+#username{
+    padding: 10px 90px 10px 5px;
+    text-align: left;
+  
+    border-radius: 10px;
+  
+}
+
+#Main a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#Main a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #00F5D4;
+}
+
+#hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px 0;
+}
+
+#Main input{
+    border: none;
+}
+
+.username-2:hover{
+     box-shadow: 4px 4px 15px white;
+}
+
+#username:hover{
+     box-shadow: 4px 4px 15px white;
+}
+
+#button{
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bolder;
+    border: none;
+    box-shadow: none !important;
+    font-size: medium;
+}
+
+#button:hover {
+    background: linear-gradient(135deg, #1c3b47, #2c5364, #3a6b80);
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15) !important;
+}
+
+

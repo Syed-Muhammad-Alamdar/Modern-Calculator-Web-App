@@ -1,0 +1,117 @@
+body{
+    background-image: url(photo-1729525589450-aa9e4e83d94e.avif) ;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;  
+    background-size: cover;       
+    background-position: center; 
+    background-attachment: fixed; 
+     font-family: 'Poppins', sans-serif;
+}
+
+#Main{
+    height: 500px;
+    width: 450px;
+    background: transparent ;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 75px;
+    color: #FFFFFF;
+    box-shadow: 4px 4px 15px white;
+}
+
+.label{
+    padding-right: 180px;
+    color:#FFFFFF;
+}
+
+.label-1{
+    padding-right: 140px;
+}
+
+.label-2{
+    padding-right: 200px;
+}
+
+.username-2{
+    padding: 10px 90px 10px 5px;
+    text-align: left;
+  
+    border-radius: 10px;
+  
+}
+.username-3{
+    padding: 10px 90px 10px 5px;
+    text-align: left;
+  
+    border-radius: 10px;
+  
+}
+.username-4{
+    padding: 10px 90px 10px 5px;
+    text-align: left;
+  
+    border-radius: 10px;
+  
+}
+
+#username{
+    padding: 10px 90px 10px 5px;
+    text-align: left;
+  
+    border-radius: 10px;
+  
+}
+
+#Main a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#Main a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px purple;
+}
+
+#hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px 0;
+}
+
+#Main input{
+    border: none;
+}
+
+.username-2:hover{
+     box-shadow: 4px 4px 15px white;
+}
+
+#username:hover{
+     box-shadow: 4px 4px 15px white;
+}
+
+#button{
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(190deg, #33183f, #5a1f41, #df31e5);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    border: none;
+    box-shadow: none !important;
+    font-size: medium;
+}
+
+#button:hover {
+    background: linear-gradient(267deg, #361a43, #5d2144, #e234e7);
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15) !important;
+}
+
+

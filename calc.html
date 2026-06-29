@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <script src="calc.js" defer></script>
+  <link rel="stylesheet" href="calc.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-left">
+        <h2>🧮 Calculator</h2>
+    </div>
+
+    <div class="nav-center">
+        <a href="log.html">Login</a>
+        <a href="history.html">History</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <div class="nav-right">
+        <p id="p-js"></p>
+    </div>
+</nav>
+  
+<div id="div1"> <h1 id="h1">Calculator</h1>  
+  
+  <input type="number" placeholder="Enter value                 📆" id="num1"> 
+  <input type="number" placeholder="Enter value                 📆" id="num2"><br> <br>
+  <button onclick="add()" class="add">&plus; Add</button>
+  <button onclick="subtract()" class="add">&minus; Subtract</button>
+  <button onclick="multiply()" class="add">x Multiply</button>
+  <button onclick="divide()" class="add">&divide; Divide</button>
+  <br>
+  <button class="butt" onclick="clearInputs()">Clear</button>
+  <button class="butt" onclick="clearHistory()">Clear saved history</button>
+
+
+ <div id="div2"><h3 id="result">Result</h3>
+ <h3 id="result-2">0</h3> </div>  </div>
+</body>
+</html>
