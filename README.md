@@ -58,6 +58,34 @@ his.js           → Displays calculation history
 
 forget.js        → Password recovery logic
 ```
+## Screenshots
+
+### Sign Up
+
+![Sign Up](Assets/signup.png)
+
+### Login
+
+![Login](Assets/login.png)
+
+### Calculator
+
+![Calculator](Assets/calculator.png)
+
+### History
+
+![History](Assets/history.png)
+
+### Forgot Password
+
+![Forgot Password](Assets/forgot-password.png)
+
+### About
+
+![About](Assets/about.png)
+
+
+
 ## Future Improvements
 
 * Responsive Design
